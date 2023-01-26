@@ -1,0 +1,29 @@
+{
+  "name": "kardoxa",
+  "version": "1.0.0",
+  "description": "Kardoxa Altyapı",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "kardoxa",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.13.0",
+    "@iamtraction/google-translate": "^2.0.0",
+    "axios": "^0.25.0",
+    "croxydb": "^0.0.7",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "math": "^0.0.3",
+    "moment": "^2.29.2",
+    "moment-duration-format": "^2.3.2",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  }
+}
